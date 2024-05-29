@@ -1,6 +1,6 @@
 # Inferring Feet Pressures with Lower Limbs IMUs (DATASET)
 
-The prediction of foot pressure using IMU sensors is an active area of research aimed at minimizing hardware, cost, and 
+The prediction of foot pressure by leveraging IMU sensors and recent advancement machine learning is an active area of research aimed at minimizing hardware, cost, and 
 logistics while enhancing the degree of freedom for Internet of Medical Things (IoMT) in health assessment and monitoring 
 of post-stroke rehabilitation patients.
 
