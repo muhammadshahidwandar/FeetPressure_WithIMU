@@ -30,11 +30,11 @@ https://ieeexplore.ieee.org/abstract/document/8938180 </sub>
 ## Directory structure
 
 * ----BasePath
-*   ---------SmartPant_Dataset
-*          -------------------Hospital_Name
-*                           ----------------Patient_Identifier
-*                                          ------------------Session_date
-*                                                            -------------Exercise_type										   
+* ------------SmartPant_Dataset
+* -----------------------------Hospital_Name
+* ------------------------------------------Patient_Identifier
+* -----------------------------------------------------------Session_date
+* -----------------------------------------------------------------------Exercise_type										   
 
 ## Files List for each exercise
 SMARTPant contains four sensory nodes, so four separate CSV files will be saved. 
