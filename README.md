@@ -50,14 +50,14 @@ Each record in the generated csv file is in the form of:
 A_xyz, G_xyz, M_xyz, FPV, DeltaT, T_abs
 ```
 , with each item described in the following:
-| name  | dimention | description | 
+| name  | position | description | 
 | :---: | :---------: | :---------: |
-| A_xyz | [0:2] |GNSS time of the navigation epoch (expressed as Unix timestamp in ns) |
-| G_xyz | The x, y, z component of the position in ECEF frame |
-| M_xyz | The x, y, z component of the velocity in ENU frame |
-| FPV   | GNSS fix type (0=no fix, 1=dead reckoning only, 2=2D-fix, 3=3D-fix, 4=GNSS+dead reckoning combined, 5=time only fix) |
-| DeltaT| if fix valid (1=valid fix) |
-| T_abs | if differential correction were applied (1=applied) | 
+| A_xyz | [0:2] |The x, y, z components of the accelerometer values |
+| G_xyz | [3:5] |The x, y, z components of the gyroscope values |
+| M_xyz | [6:8] |The x, y, z components of the magnetometer values |
+| FPV   | [9:12] | The foot pressure values at four sensory nodes |
+| DeltaT| [13] | The time difference with respect to the previous sample in nanoseconds |
+| T_abs | [14] | The absolute time step in ns| 
 
 # How to user
 Download the repository and extract the SmartPant_Dataset.rar file using the following command in Linux or with WinRAR software in Windows.
