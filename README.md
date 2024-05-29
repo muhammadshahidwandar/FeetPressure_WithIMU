@@ -1,14 +1,16 @@
 # Inferring Feet Pressures with Lower Limbs IMUs (DATASET)
 
-The task of automatically detecting “Who is Speaking and When” is broadly named as Voice Activity Detection (VAD). 
-Automatic VAD is a very important task and also the foundation of several domains, e.g., human-human, human-computer/ robot/ virtual-agent interaction analyses, 
-and industrial applications.
+The prediction of foot pressure using IMU sensors is an active area of research aimed at minimizing hardware, cost, and 
+logistics while enhancing the degree of freedom for Internet of Medical Things (IoMT) in health assessment and monitoring 
+of post-stroke rehabilitation patients.
 
-RealVAD dataset is constructed from a YouTube video composed of a panel discussion lasting approx. 83 minutes. 
-The audio is available from a single channel. There is one static camera capturing all panelists, the moderator and audiences. 
-The field-of-the-view of the camera while the panelists are shown with the assigned identification numbers are as follow.
+This dataset is collected from eight real hospital patients undergoing post-stroke rehabilitation at various stages. 
+The data is gathered by an expert physiotherapist during therapy sessions while the patients wear SMARTPant[1], a platform
+that includes four IMU sensor nodes placed on the lower limbs, along with two pressure-sensing insoles, each equipped with
+four piezoelectric pressure-sensing nodes deployed at four key points on the foot, as shown in Figure 1.
 
-![Alt text](img.png)
+
+![Alt text](Main_Diagram.jpg)
 <sub> Image was adapted from Privacy camp 2018: Round-table, government hacking in different national contexts and strategies 
 https://www.youtube.com/watch?v=51pRTOIso4U </sub>
 
