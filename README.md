@@ -59,7 +59,7 @@ A_xyz, G_xyz, M_xyz, FPV, DeltaT, T_abs
 | DeltaT| [13] | The time difference with respect to the previous sample in nanoseconds |
 | T_abs | [14] | The absolute time stamp in ns| 
 
-# How to user
+# How to use
 Download the repository and extract the SmartPant_Dataset.rar file using the following command in Linux or with WinRAR software in Windows.
 
 ```
