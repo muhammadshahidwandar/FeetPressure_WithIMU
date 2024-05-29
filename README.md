@@ -18,7 +18,7 @@ https://ieeexplore.ieee.org/abstract/document/8938180 </sub>
 
 * [ ] The dataset is composed of eight real patients from two different hospitals in a metropolitan area, all undergoing the post-stroke rehabilitation phase and at various stages.
 * [ ] The patients perform physiotherapy exercises under the supervision of trained physiotherapists while wearing these wearables.
-* [ ] Data is periodically captured weekly to monitor the recovery phase and adapt the therapy protocols for up to six weeks.
+* [ ] Data is periodically captured weekly to monitor the recovery phase and adapt the therapy protocols for up to seven weeks.
 * [ ] The duration of some complex exercises varies for different users, depending on their health conditions.  
 * [ ] The participants were free from other musculoskeletal or neurodegenerative diseases.
 * [ ] The same hardware platform is utilized for all patients.
