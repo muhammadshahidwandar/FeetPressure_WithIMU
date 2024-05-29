@@ -52,7 +52,7 @@ A_xyz, G_xyz, M_xyz, FPV, DeltaT, T_abs
 , with each item described in the following:
 | name  | dimention | description | 
 | :---: | :---------: | :---------: |
-| A_xyz | GNSS time of the navigation epoch (expressed as Unix timestamp in ns) |
+| A_xyz | [0:2] |GNSS time of the navigation epoch (expressed as Unix timestamp in ns) |
 | G_xyz | The x, y, z component of the position in ECEF frame |
 | M_xyz | The x, y, z component of the velocity in ENU frame |
 | FPV   | GNSS fix type (0=no fix, 1=dead reckoning only, 2=2D-fix, 3=3D-fix, 4=GNSS+dead reckoning combined, 5=time only fix) |
