@@ -1,9 +1,5 @@
-# FeetPressure_WithIMU
-Inferring Feet Pressure with Lower Limbs IMUs
-## Table of contents
-* [DATASET: Cost-Efficient and Portable IoMT Solution forPost-Stroke Rehabilitation: Inferring Feet Pressures with Lower Limbs IMUs](#dataset)
- 
-## Inferring Feet Pressures with Lower Limbs IMUs 
+# Inferring Feet Pressures with Lower Limbs IMUs (DATASET)
+
 The task of automatically detecting “Who is Speaking and When” is broadly named as Voice Activity Detection (VAD). 
 Automatic VAD is a very important task and also the foundation of several domains, e.g., human-human, human-computer/ robot/ virtual-agent interaction analyses, 
 and industrial applications.
@@ -16,7 +12,7 @@ The field-of-the-view of the camera while the panelists are shown with the assig
 <sub> Image was adapted from Privacy camp 2018: Round-table, government hacking in different national contexts and strategies 
 https://www.youtube.com/watch?v=51pRTOIso4U </sub>
 
- Particular aspects of RealVAD dataset are:
+##Particular aspects of dataset are:
 
 * [ ] It is composed of panelists with different nationalities (British, Dutch, French, German, Italian, American, Mexican, Columbian, Thai). This aspect allows studying the effect of ethnic origin variety to the automatic VAD.
 * [ ]	There is a gender balance such that there are four female and five male panelists.
@@ -32,6 +28,32 @@ You can reach the annotations from [HERE](http://doi.org/10.5281/zenodo.3928151)
 * [ ] Associated VAD ground-truth (speaking, not-speaking) for nine panelists 
 * [ ] Acoustic features extracted from the video: MFCC and raw filterbank energies
 * [ ] The corresponding video can be accessed from [HERE](https://www.youtube.com/watch?v=51pRTOIso4U)
+
+# 3. Dataset Details
+
+##Directory structure 
+
+## Files List for each exercise
+
+## Data structure in each file
+
+Each record in the generated csv file is in the form of:
+```
+gnss_ts_ns, ecef_px, ecef_py, ecef_pz, enu_vx, enu_vy, enu_vz, fix_type, valid_fix, diff_soln, carr_soln
+```
+, with each item described in the following:
+| name | description | 
+| :--: | :---------: |
+| gnss_ts_ns | GNSS time of the navigation epoch (expressed as Unix timestamp in ns) |
+| ecef_p* | The x, y, z component of the position in ECEF frame |
+| enu_v* | The x, y, z component of the velocity in ENU frame |
+| fix_type | GNSS fix type (0=no fix, 1=dead reckoning only, 2=2D-fix, 3=3D-fix, 4=GNSS+dead reckoning combined, 5=time only fix) |
+| valid_fix | if fix valid (1=valid fix) |
+| diff_soln | if differential correction were applied (1=applied) |
+| carr_soln | carrier phase range solution status (0=no carrier phase, 1=float, 2=fix) | 
+
+## 5. License
+The dataset is released under [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
 ## When using this dataset for your research, please cite the related papers in your publication:
 ```
