@@ -16,13 +16,13 @@ https://ieeexplore.ieee.org/abstract/document/8938180 </sub>
 
 ##Particular aspects of dataset are:
 
-* [ ] It is composed of panelists with different nationalities (British, Dutch, French, German, Italian, American, Mexican, Columbian, Thai). This aspect allows studying the effect of ethnic origin variety to the automatic VAD.
-* [ ]	There is a gender balance such that there are four female and five male panelists.
-* [ ]	The panelists are sitting in two rows and they can be gazing audience, other panelists, their laptop, the moderator or anywhere in the room while speaking or not-speaking. Therefore, they were captured not only from frontal-view but also from side-view varying based on their instant posture and head orientation.
-* [ ] The panelists are moving freely and are doing various spontaneous actions (e.g., drinking water, checking their cell phone, using their laptop, etc.), resulting in different postures. 
-* [ ] The panelists’ body parts are sometimes partially occluded by their/other's body part or belongings (e.g., laptop).
-* [ ] There are also natural changes of illumination and shadow rising on the wall behind the panelists in the back row.
-* [ ] Especially, for the panelists sitting in the front row, there is sometimes background motion occurring when the person(s) behind them moves.
+* [ ] The dataset is composed of eight real patients from two different hospitals in a metropolitan area, all undergoing the post-stroke rehabilitation phase and at various stages.
+* [ ] The patients perform physiotherapy exercises under the supervision of trained physiotherapists while wearing these wearables.
+* [ ] Data is periodically captured weekly to monitor the recovery phase and adapt the therapy protocols for up to six weeks.
+* [ ] The duration of some complex exercises varies for different users, depending on their health conditions.  
+* [ ] The participants were free from other musculoskeletal or neurodegenerative diseases.
+* [ ] The same hardware platform is utilized for all patients.
+
 
 
 # 3. Dataset Details
@@ -53,7 +53,7 @@ The dataset is released under [CC-BY-NC-SA-4.0](https://creativecommons.org/lice
 
 ## When using this dataset for your research, please cite the related papers in your publication:
 ```
-
+comming soon
 ```
 ```
 @article{bisio2019ehealth,
