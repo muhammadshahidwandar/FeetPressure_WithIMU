@@ -24,16 +24,10 @@ https://ieeexplore.ieee.org/abstract/document/8938180 </sub>
 * [ ] There are also natural changes of illumination and shadow rising on the wall behind the panelists in the back row.
 * [ ] Especially, for the panelists sitting in the front row, there is sometimes background motion occurring when the person(s) behind them moves.
 
-You can reach the annotations from [HERE](http://doi.org/10.5281/zenodo.3928151) that includes:
-
-* [ ] The upper body detection of nine panelists in bounding box form
-* [ ] Associated VAD ground-truth (speaking, not-speaking) for nine panelists 
-* [ ] Acoustic features extracted from the video: MFCC and raw filterbank energies
-* [ ] The corresponding video can be accessed from [HERE](https://www.youtube.com/watch?v=51pRTOIso4U)
 
 # 3. Dataset Details
 
-##Directory structure 
+## Directory structure 
 
 ## Files List for each exercise
 
@@ -59,17 +53,20 @@ The dataset is released under [CC-BY-NC-SA-4.0](https://creativecommons.org/lice
 
 ## When using this dataset for your research, please cite the related papers in your publication:
 ```
-C. Beyan, M. Shahid and V. Murino, 
-"RealVAD: A Real-world Dataset and A Method for Voice Activity Detection by Body Motion Analysis," 
-in IEEE Transactions on Multimedia, doi: 10.1109/TMM.2020.3007350.
+
 ```
 ```
-@ARTICLE{Beyan2020TMM,
-  author={C. {Beyan} and M. {Shahid} and V. {Murino}},
-  journal={IEEE Transactions on Multimedia}, 
-  title={RealVAD: A Real-world Dataset and A Method for Voice Activity Detection by Body Motion Analysis}, 
-  year={2020},
-  volume={},
-  number={},
-  pages={1-1},}
+@article{bisio2019ehealth,
+  title={When eHealth meets IoT: A smart wireless system for post-stroke home rehabilitation},
+  author={Bisio, Igor and Garibotto, Chiara and Lavagetto, Fabio and Sciarrone, Andrea},
+  journal={IEEE Wireless Communications},
+  volume={26},
+  number={6},
+  pages={24--29},
+  year={2019},
+  publisher={IEEE}
+}
 ```
+## Reference 
+[1] Bisio, Igor, et al. "When eHealth meets IoT: A smart wireless system for post-stroke 
+home rehabilitation." IEEE Wireless Communications 26.6 (2019): 24-29.
