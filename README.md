@@ -57,7 +57,7 @@ A_xyz, G_xyz, M_xyz, FPV, DeltaT, T_abs
 | M_xyz | [6:8] |The x, y, z components of the magnetometer values |
 | FPV   | [9:12] | The foot pressure values at four sensory nodes |
 | DeltaT| [13] | The time difference with respect to the previous sample in nanoseconds |
-| T_abs | [14] | The absolute time step in ns| 
+| T_abs | [14] | The absolute time stamp in ns| 
 
 # How to user
 Download the repository and extract the SmartPant_Dataset.rar file using the following command in Linux or with WinRAR software in Windows.
