@@ -47,18 +47,17 @@ SMARTPant contains four sensory nodes, so four separate CSV files will be saved.
 
 Each record in the generated csv file is in the form of:
 ```
-gnss_ts_ns, ecef_px, ecef_py, ecef_pz, enu_vx, enu_vy, enu_vz, fix_type, valid_fix, diff_soln, carr_soln
+A_xyz, G_xyz, M_xyz, FPV, DeltaT, T_abs
 ```
 , with each item described in the following:
-| name | description | 
-| :--: | :---------: |
-| gnss_ts_ns | GNSS time of the navigation epoch (expressed as Unix timestamp in ns) |
-| ecef_p* | The x, y, z component of the position in ECEF frame |
-| enu_v* | The x, y, z component of the velocity in ENU frame |
-| fix_type | GNSS fix type (0=no fix, 1=dead reckoning only, 2=2D-fix, 3=3D-fix, 4=GNSS+dead reckoning combined, 5=time only fix) |
-| valid_fix | if fix valid (1=valid fix) |
-| diff_soln | if differential correction were applied (1=applied) |
-| carr_soln | carrier phase range solution status (0=no carrier phase, 1=float, 2=fix) | 
+| name  | dimention | description | 
+| :---: | :---------: | :---------: |
+| A_xyz | GNSS time of the navigation epoch (expressed as Unix timestamp in ns) |
+| G_xyz | The x, y, z component of the position in ECEF frame |
+| M_xyz | The x, y, z component of the velocity in ENU frame |
+| FPV   | GNSS fix type (0=no fix, 1=dead reckoning only, 2=2D-fix, 3=3D-fix, 4=GNSS+dead reckoning combined, 5=time only fix) |
+| DeltaT| if fix valid (1=valid fix) |
+| T_abs | if differential correction were applied (1=applied) | 
 
 # How to user
 Download the repository and extract the SmartPant_Dataset.rar file using the following command in Linux or with WinRAR software in Windows.
@@ -68,7 +67,7 @@ sudo apt-get install unrar
 unrar x SmartPant_Dataset.rar /path/to/directory 
 ```
 
-## 5. License
+## License
 The dataset is released under [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
 ## When using this dataset for your research, please cite the related papers in your publication:
