@@ -25,7 +25,7 @@ https://ieeexplore.ieee.org/abstract/document/8938180 </sub>
 
 
 
-# 3. Dataset Details
+# Dataset Details
 
 ## Directory structure 
 
@@ -47,6 +47,13 @@ gnss_ts_ns, ecef_px, ecef_py, ecef_pz, enu_vx, enu_vy, enu_vz, fix_type, valid_f
 | valid_fix | if fix valid (1=valid fix) |
 | diff_soln | if differential correction were applied (1=applied) |
 | carr_soln | carrier phase range solution status (0=no carrier phase, 1=float, 2=fix) | 
+
+# How to user
+Download the repository and unrar the Dataset.rar using following command in linux or winrar software in windows
+```
+sudo apt-get install unrar
+unrar x filename.rar /path/to/directory 
+```
 
 ## 5. License
 The dataset is released under [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
