@@ -29,19 +29,19 @@ https://ieeexplore.ieee.org/abstract/document/8938180 </sub>
 
 ## Directory structure
 
-----BasePath
-   ---------SmartPant_Dataset
-          -------------------Hospital_Name
-                           ----------------Patient_Identifier
-                                           ------------------Session_date
-                                                            -------------Exercise_type										   
+*----BasePath
+*   ---------SmartPant_Dataset
+*          -------------------Hospital_Name
+*                           ----------------Patient_Identifier
+*                                          ------------------Session_date
+*                                                            -------------Exercise_type										   
 
 ## Files List for each exercise
 SMARTPant contains four sensory nodes, so four separate CSV files will be saved. 
-* 1- Exercise type Left Shinbone
-* 2- Exercise type Left Tight
-* 3- Exercise type Right Shinbone
-* 4- Exercise type Right Tight
+* Exercise type Left Shinbone
+* Exercise type Left Tight
+* Exercise type Right Shinbone
+* Exercise type Right Tight
 
 ## Data structure in each file
 
