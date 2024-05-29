@@ -38,10 +38,10 @@ https://ieeexplore.ieee.org/abstract/document/8938180 </sub>
 
 ## Files List for each exercise
 SMARTPant contains four sensory nodes, so four separate CSV files will be saved. 
-1- Exercise type Left Shinbone
-2- Exercise type Left Tight
-3- Exercise type Right Shinbone
-4- Exercise type Right Tight
+* 1- Exercise type Left Shinbone
+* 2- Exercise type Left Tight
+* 3- Exercise type Right Shinbone
+* 4- Exercise type Right Tight
 
 ## Data structure in each file
 
