@@ -27,9 +27,21 @@ https://ieeexplore.ieee.org/abstract/document/8938180 </sub>
 
 # Dataset Details
 
-## Directory structure 
+## Directory structure
+
+----BasePath
+   ---------SmartPant_Dataset
+          -------------------Hospital_Name
+                           ----------------Patient_Identifier
+                                           ------------------Session_date
+                                                            -------------Exercise_type										   
 
 ## Files List for each exercise
+SMARTPant contains four sensory nodes, so four separate CSV files will be saved. 
+1- Exercise type Left Shinbone
+2- Exercise type Left Tight
+3- Exercise type Right Shinbone
+4- Exercise type Right Tight
 
 ## Data structure in each file
 
@@ -49,10 +61,11 @@ gnss_ts_ns, ecef_px, ecef_py, ecef_pz, enu_vx, enu_vy, enu_vz, fix_type, valid_f
 | carr_soln | carrier phase range solution status (0=no carrier phase, 1=float, 2=fix) | 
 
 # How to user
-Download the repository and unrar the Dataset.rar using following command in linux or winrar software in windows
+Download the repository and extract the SmartPant_Dataset.rar file using the following command in Linux or with WinRAR software in Windows.
+
 ```
 sudo apt-get install unrar
-unrar x filename.rar /path/to/directory 
+unrar x SmartPant_Dataset.rar /path/to/directory 
 ```
 
 ## 5. License
