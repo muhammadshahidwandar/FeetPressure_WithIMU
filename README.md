@@ -29,7 +29,7 @@ https://ieeexplore.ieee.org/abstract/document/8938180 </sub>
 
 ## Directory structure
 
-*----BasePath
+* ----BasePath
 *   ---------SmartPant_Dataset
 *          -------------------Hospital_Name
 *                           ----------------Patient_Identifier
