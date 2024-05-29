@@ -10,9 +10,9 @@ that includes four IMU sensor nodes placed on the lower limbs, along with two pr
 four piezoelectric pressure-sensing nodes deployed at four key points on the foot, as shown in Figure 1.
 
 
-![Alt text](Main_Diagram.jpg)
-<sub> Image was adapted from Privacy camp 2018: Round-table, government hacking in different national contexts and strategies 
-https://www.youtube.com/watch?v=51pRTOIso4U </sub>
+![Alt text](SmartPant.png)
+<sub> Image was adapted from [1] 
+https://ieeexplore.ieee.org/abstract/document/8938180 </sub>
 
 ##Particular aspects of dataset are:
 
