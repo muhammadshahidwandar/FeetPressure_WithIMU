@@ -67,9 +67,6 @@ sudo apt-get install unrar
 unrar x SmartPant_Dataset.rar /path/to/directory 
 ```
 
-## License
-The dataset is released under [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
-
 ## When using this dataset for your research, please cite the related papers in your publication:
 ```
 comming soon
@@ -89,3 +86,6 @@ comming soon
 ## Reference 
 [1] Bisio, Igor, et al. "When eHealth meets IoT: A smart wireless system for post-stroke 
 home rehabilitation." IEEE Wireless Communications 26.6 (2019): 24-29.
+
+## License
+The dataset is released under [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
