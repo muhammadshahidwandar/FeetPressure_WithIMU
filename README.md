@@ -31,9 +31,9 @@ https://ieeexplore.ieee.org/abstract/document/8938180 </sub>
 
     ├── SmartPant_Dataset                    
        └──────────────── Hospital_Name
-	                     └─────────── Patient_Identifier
-						              └────────────── Session_date
-									                 └────────── Exercise_type
+	                   └─────────── Patient_Identifier
+						         └────────────── Session_date
+									         └────────── Exercise_type
 													              
 										   
 
